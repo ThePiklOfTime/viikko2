@@ -23,9 +23,9 @@ public class App
                     hedgehog.Speak(sanominen);
                     break;
                 case 2:
-                    System.out.println("Anna siilin nimi: ");
+                    System.out.println("Anna siilin nimi:");
                     String name = scanner.nextLine();
-                    System.out.println("Anna siilin ikä: ");
+                    System.out.println("Anna siilin ikä:");
                     int age = Integer.parseInt(scanner.nextLine());
                     hedgehog = new Hedgehog(name, age);
                     break;
