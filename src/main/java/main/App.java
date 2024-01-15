@@ -33,7 +33,7 @@ public class App
                     System.out.println("Kuinka monta kierrosta?");
                     int howManyTurns = Integer.parseInt(scanner.nextLine());
                     hedgehog.run(howManyTurns); 
-                
+                    break;
                 
                 case 0:
                     exit = true;
